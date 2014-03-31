@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html class="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1251"/>
+	<meta name="description" content=""/>
+	<title>Chat</title>
+	<link rel="stylesheet" href="/css/style.css" type="text/css"/>
+</head>
+<body>
+<div class="aside">
+	<div class="logout-button" style="display: none">
+		<a href="javascript:void(0)" role="logout">Logout</a>
+	</div>
+</div>
+<div class="container a-right">
+	<div id="dialog-wrapper">
+	</div>
+	<div class="footer">
+		<div id="login-form-wrapper">
+			<form action="javascript:void(0)">
+				<input type="submit" value="Sign in" />
+				<input type="text" name="username" placeholder="Enter you Login" />
+			</form>
+			<div class="clear"></div>
+		</div>
+		<div id="input-box-wrapper" style="display: none">
+			<form action="javascript:void(0)">
+				<textarea name="message"></textarea>
+				<input type="submit" value="Send" />
+			</form>
+		</div>
+	</div>
+</div>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/jquery-1.11.0.min.js"></script>
+<script src="/js/jquery.cookie.js"></script>
+<script src="/js/Helper.js"></script>
+<script src="/js/chat.js"></script>
+</body>
+</html>

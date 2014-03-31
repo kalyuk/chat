@@ -1,0 +1,14 @@
+{
+	"name": "Chat",
+	"version": "0.0.1",
+	"author": "Dmitry Kalyuk <dmitry@kalyuk.ru>",
+	"url": "kalyuk.ru",
+	"description": " ",
+	"start": "node server.js",
+	"dependencies": {
+		"socket.io": ">=1.0.0-pre"
+	},
+	"engines": {
+		"node": ">=0.10.*"
+	}
+}
